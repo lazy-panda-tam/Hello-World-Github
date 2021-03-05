@@ -2,7 +2,7 @@ name: Greeting from Tam Chi Hong
 on: push
 
 jobs:
-my_job:
+my-job:
 name: My Job
 runs-on: ubuntu-latest
 steps:
@@ -13,4 +13,4 @@ FIRST_NAME: Mona
 MIDDLE_NAME: The
 LAST_NAME: Octocat
 run:  |
-echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME
+echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
