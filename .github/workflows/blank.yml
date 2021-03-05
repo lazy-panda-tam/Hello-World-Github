@@ -2,7 +2,7 @@ name: Greeting from Tam Chi Hong
 on: push
 
 jobs:
-	my-job:
+	my_job:
 		name: My Job
 		runs-on: ubuntu-latest
 		steps:
