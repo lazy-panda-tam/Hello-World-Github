@@ -1,9 +1,6 @@
 name: Greeting from Tam Chi Hong
 on: 
-  push:
-    branches: [ master ]
-  pull_reqiest:
-    branches: [ master ]
+  push
 
 jobs:
   my-job:
